@@ -19,16 +19,6 @@ A:hover {
 	position: relative;
 	z-index: 0;	
 }
-#header .logo_web {
-  display: block;
-	position: absolute;
-	z-index: 10;
-	float: left;
-	width: 118px;
-	height: 80px;
-	margin: 10px 100px 0 20px;
-	background: url(../images/logo.png) no-repeat 0 0;
-}
 #header .menu {
   position: absolute;
 	z-index: 3;
@@ -46,6 +36,16 @@ A:hover {
 
 /*web go*/
 
+#header .logo_web {
+  display: block;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	width: 118px;
+	height: 80px;
+	margin: 10px 100px 0 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
 #inner_web {
   padding: 100px 0 0 0;
   overflow: hidden;
@@ -129,6 +129,16 @@ A:hover {
 
 /*design go*/
 
+#header .logo_design {
+  display: block;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	width: 118px;
+	height: 80px;
+	margin: 10px 100px 0 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
 #header .design_men {
   position: absolute;
 	z-index: 1;
@@ -138,8 +148,15 @@ A:hover {
 	height: 263px;
   background: url(../images/design_men.jpg) no-repeat 0 0;
 }
-#header .logo {
-  margin: 10px 170px 0 20px;
+#header .logo_design {
+  display: block;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	width: 118px;
+	height: 80px;
+	margin: 10px 100px 0 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
 }
 #header IMG {
   position: absolute;
