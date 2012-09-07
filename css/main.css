@@ -34,6 +34,8 @@ A:hover {
 	color: #000;
 }
 
+
+
 /*web go*/
 #wrapper_web {
   min-width: 1000px;
@@ -129,6 +131,8 @@ A:hover {
 }
 
 /*web end*/
+
+
 
 /*design go*/
 
@@ -246,6 +250,8 @@ A:hover {
 }
 
 /*design end*/
+
+
 
 /* event go */
 
@@ -414,7 +420,38 @@ BODY.event_black_bg {
 
 /* event end */
 
+
+
 /* portfolio go */
+
+#wrapper_portfolio {
+  position: relative;
+}
+#wrapper_portfolio .soc_seti {
+  position: absolute;
+	width: 50px;
+	bottom: 20px;
+	left: 15px;
+}
+#wrapper_portfolio .soc_seti .twitt {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/twitt_white.png) no-repeat 50% 50%;
+}
+#wrapper_portfolio .soc_seti .vk {
+  display: block;
+	margin: 10px 0 10px 0;
+  width: 30px;
+	height: 26px;
+  background: url(../images/vk_white.png) no-repeat 50% 50%;
+}
+#wrapper_portfolio .soc_seti .face {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/face_white.png) no-repeat 50% 50%;
+}
 
 #header {
   height: 80px;
@@ -531,37 +568,179 @@ BODY.event_black_bg {
   color: #FD2A2A;
 }
 
-#wrapper_portfolio {
+/* portfolio end */
+
+
+
+/* polygraphy go */
+
+#wrapper_polygraphy {
   position: relative;
 }
-#wrapper_portfolio .soc_seti {
+
+#header_polygraphy .logo_web {
+  display: block;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	width: 118px;
+	height: 80px;
+	margin: 10px 100px 0 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#header_polygraphy {
+  
+}
+#header_polygraphy .menu_portfolio {
+  position: absolute;
+	z-index: 3;
+	left: 330px;
+	top: 30px;
+}
+#header_polygraphy .menu_portfolio .act {
+  color: #FF0F0F;
+}
+#header_polygraphy .menu_portfolio A {
+  padding: 0 40px 0 0;
+	font: 12px arial;
+	color: #000;
+}
+
+#inner_polygraphy {
+  padding: 150px 0 0 0;
+  overflow: hidden;
+	background: url(../images/inner_polygraphy.jpg) no-repeat 0 0;
+}
+#inner_polygraphy .portfolio_left {
+	width: 330px;
+	margin: 120px 0 0 0;
+	float: left;
+	text-align: right;
+}
+#inner_polygraphy .portfolio_left A {
+  font: 12px/20px arial;
+	color: #000;
+}
+#inner_polygraphy .web_men {
+  position: absolute;
+	width: 343px;
+	height: 322px;
+	right: 0;
+	top: 253px;
+  background: url(../images/men.png) no-repeat 0 0;
+}
+#inner_polygraphy .tel {
+  font: 12px arial;
+	color: #FF0F0F;
+	margin: 100px 0 0 320px;
+}
+#inner_polygraphy .tel A {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#inner_polygraphy .tel SPAN {
+  font: 12px arial;
+	color: #000;
+}
+
+#right_polygraphy {
+	width: 920px;
+	overflow: hidden;
+	position: relative;
+}
+#right_polygraphy .polygraphy_right {
+  float: right;
+	width: 300px;
+	margin: 0 0 0 60%;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+#right_polygraphy .polygraphy_right .portfolio_reitings {
+	width: 190px;
+	font: 10px/10px arial;
+	color: #181818;
+	overflow: hidden;
+	text-align: left;
+	position: absolute;
+	bottom: 0;
+}
+#right_polygraphy .polygraphy_right .portfolio_reitings A {
+  color: #FD2A2A;
+}
+#right_polygraphy .polygraphy_right .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	left: 0;
+	bottom: 50px;
+	text-align: center;
+  background: black;
+}
+#right_polygraphy .polygraphy_right .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#right_polygraphy .polygraphy_right .soc_seti {
   position: absolute;
 	width: 50px;
-	bottom: 20px;
-	left: 15px;
+	bottom: 100px;
+	left: 0px;
 }
-#wrapper_portfolio .soc_seti .twitt {
+#right_polygraphy .polygraphy_right .soc_seti .twitt {
   display: block;
 	width: 30px;
 	height: 26px;
   background: url(../images/twitt_white.png) no-repeat 50% 50%;
 }
-#wrapper_portfolio .soc_seti .vk {
+#right_polygraphy .polygraphy_right .soc_seti .vk {
   display: block;
 	margin: 10px 0 10px 0;
   width: 30px;
 	height: 26px;
   background: url(../images/vk_white.png) no-repeat 50% 50%;
 }
-#wrapper_portfolio .soc_seti .face {
+#right_polygraphy .polygraphy_right .soc_seti .face {
   display: block;
 	width: 30px;
 	height: 26px;
   background: url(../images/face_white.png) no-repeat 50% 50%;
 }
+#right_polygraphy .web_left {
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	width: 46%;
+	margin: 0 0 0 20px;
+}
+#right_polygraphy .web_left .block_items {
+  overflow: hidden;
+}
+#right_polygraphy .web_left .item {
+  width: 130px;
+	height: 125px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	margin: 5px;
+}
+#right_polygraphy .web_left .item IMG {
+	text-align: center;
+}
+#right_polygraphy .web_left .yet {
+  font: 12px/50px arial;
+	color: #000;
+	margin: 0;
+	padding: 0 0 15px 0;
+	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+}
+#right_polygraphy .web_left .yet:hover {
+  text-decoration: none;
+}
 
-
-/* portfolio end */
+/* polygraphy end */
 
 #footer {
   margin: 10px 0 0 0;
