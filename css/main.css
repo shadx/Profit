@@ -37,6 +37,7 @@ A:hover {
 /*web go*/
 #wrapper_web {
   min-width: 1000px;
+	position: relative;
 }
 #header .logo_web {
   display: block;
@@ -50,7 +51,7 @@ A:hover {
 }
 #inner_web {
   padding: 100px 0 0 0;
-  overflow: hidden;
+	position: relative;
 }
 #inner_web .web_left {
 	text-align: center;
@@ -412,6 +413,155 @@ BODY.event_black_bg {
 }
 
 /* event end */
+
+/* portfolio go */
+
+#header {
+  height: 80px;
+}
+#header .menu_portfolio {
+  position: absolute;
+	z-index: 3;
+	left: 200px;
+	top: 30px;
+}
+#header .menu_portfolio .act {
+  color: #FF0F0F;
+}
+#header .menu_portfolio A {
+  padding: 0 40px 0 0;
+	font: 12px arial;
+	color: #000;
+}
+
+#inner_portfolio {
+  padding: 50px 0 0 0;
+  overflow: hidden;
+	margin: 0 0 0 50px;
+	background: url(../images/inner_portfolio.png) no-repeat 0 0;
+}
+#inner_portfolio .web_left {
+	text-align: center;
+	overflow: hidden;
+	width: 44%;
+	margin: 0 auto;
+}
+#inner_portfolio .web_left .block_items {
+  overflow: hidden;
+}
+#inner_portfolio .web_left .item {
+  width: 130px;
+	height: 125px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	margin: 5px;
+}
+#inner_portfolio .web_left .item IMG {
+	text-align: center;
+}
+#inner_portfolio .web_left .yet {
+  font: 12px/50px arial;
+	color: #000;
+	margin: 0;
+	padding: 0 0 15px 0;
+	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+}
+#inner_portfolio .web_left .yet:hover {
+  text-decoration: none;
+}
+#inner_portfolio .portfolio_left {
+	width: 400px;
+	float: left;
+	text-align: right;
+}
+#inner_portfolio .portfolio_left A {
+  font: 10px/28px arial;
+	color: #000;
+}
+#inner_portfolio .web_men {
+  position: absolute;
+	width: 343px;
+	height: 322px;
+	right: 0;
+	top: 253px;
+  background: url(../images/men.png) no-repeat 0 0;
+}
+#inner_portfolio .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	right: 200px;
+	top: 90px;
+	text-align: center;
+  background: black;
+}
+#inner_portfolio .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#inner_portfolio .tel {
+  font: 12px arial;
+	color: #FF0F0F;
+	margin: 100px 0 0 320px;
+}
+#inner_portfolio .tel A {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#inner_portfolio .tel SPAN {
+  font: 12px arial;
+	color: #000;
+}
+
+#footer_portfolio {
+	width: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer_portfolio .portfolio_reitings {
+	width: 190px;
+	font: 10px/10px arial;
+	color: #181818;
+	overflow: hidden;
+	text-align: center;
+}
+#footer_portfolio .portfolio_reitings A {
+  color: #FD2A2A;
+}
+
+#wrapper_portfolio {
+  position: relative;
+}
+#wrapper_portfolio .soc_seti {
+  position: absolute;
+	width: 50px;
+	bottom: 20px;
+	left: 15px;
+}
+#wrapper_portfolio .soc_seti .twitt {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/twitt_white.png) no-repeat 50% 50%;
+}
+#wrapper_portfolio .soc_seti .vk {
+  display: block;
+	margin: 10px 0 10px 0;
+  width: 30px;
+	height: 26px;
+  background: url(../images/vk_white.png) no-repeat 50% 50%;
+}
+#wrapper_portfolio .soc_seti .face {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/face_white.png) no-repeat 50% 50%;
+}
+
+
+/* portfolio end */
 
 #footer {
   margin: 10px 0 0 0;
