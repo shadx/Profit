@@ -1,0 +1,278 @@
+BODY {
+  
+}
+
+.png {
+  behavior: url("js/iepngfix.htc")
+}
+
+.clear {
+  clear: both;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+
+#header {
+	position: relative;
+	z-index: 0;	
+}
+#header .logo_web {
+  display: block;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	width: 118px;
+	height: 80px;
+	margin: 10px 100px 0 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#header .menu {
+  position: absolute;
+	z-index: 3;
+	left: 300px;
+	top: 50px;
+}
+#header .menu .act {
+  color: #FF0F0F;
+}
+#header .menu A {
+  padding: 0 40px 0 0;
+	font: 12px arial;
+	color: #000;
+}
+
+/*web go*/
+
+#inner_web {
+  padding: 100px 0 0 0;
+  overflow: hidden;
+}
+#inner_web .web_left {
+	text-align: center;
+	margin: 0 0 0 0;
+	overflow: hidden;
+}
+#inner_web .web_left .block_items {
+  overflow: hidden;
+  margin: 0 100px 0 250px;
+}
+#inner_web .web_left .item {
+  width: 130px;
+	height: 125px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	margin: 5px;
+}
+#inner_web .web_left .item IMG {
+	text-align: center;
+}
+#inner_web .web_left .yet {
+  font: 12px/50px arial;
+	color: #000;
+	margin: 0;
+	padding: 0 0 15px 0;
+	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+}
+#inner_web .web_left .yet:hover {
+  text-decoration: none;
+}
+#inner_web .web_right {
+	height: 320px;
+	width: 25%;
+	float: right;
+}
+#inner_web .web_right A {
+  font: 12px arial;
+	color: #000;
+}
+#inner_web .web_men {
+  position: absolute;
+	width: 343px;
+	height: 322px;
+	right: 0;
+	top: 253px;
+  background: url(../images/men.png) no-repeat 0 0;
+}
+#inner_web .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	left: 600px;
+	top: 520px;
+	text-align: center;
+  background: black;
+}
+#inner_web .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#inner_web .tel {
+  font: 12px arial;
+	color: #FF0F0F;
+	margin: 100px 0 0 320px;
+}
+#inner_web .tel A {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#inner_web .tel SPAN {
+  font: 12px arial;
+	color: #000;
+}
+
+/*web end*/
+
+/*design go*/
+
+#header .design_men {
+  position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 263px;
+  background: url(../images/design_men.jpg) no-repeat 0 0;
+}
+#header .logo {
+  margin: 10px 170px 0 20px;
+}
+#header IMG {
+  position: absolute;
+	top: 120px;
+	left: 20px;
+	z-index: 10;
+	width: 84px;
+	height: 88px;
+	background: url(../images/t_vk_f_2.png) no-repeat 0 0;
+}
+#inner_design {
+	padding: 271px 0 0 0;
+}
+#inner_design .design_left {
+	width: 30%;
+	height: 280px;
+	text-align: right;
+}
+#inner_design .design_left A {
+  font: 12px arial;
+	color: #000;
+	clear: both;
+}
+#inner_design .design_right {
+  margin: 0 300px 0 31%;
+	overflow: hidden;
+	position: absolute;
+	top: 120px;
+	text-align: center;
+}
+#inner_design .design_right .block_items {
+  overflow: hidden;
+}
+#inner_design .design_right .block_items .item {
+  float: left;
+	width: 130px;
+	height: 125px;
+	overflow: hidden;
+}
+#inner_design .design_right .yet {
+  font: 12px/50px arial;
+	color: #000;
+	margin: 0;
+	padding: 0 0 15px 0;
+	vertical-align: bottom;
+	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+}
+#inner_design .design_right .yet:hover {
+  text-decoration: none;
+}
+#inner_design .design_right .mrk {
+  float: left;
+	text-align: left;
+	font: 12px arial;
+	color: #181818;
+	margin: 20px 0 0 0;
+}
+#inner_design .tel {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#inner_design .tel A {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#inner_design .tel SPAN {
+  font: 12px arial;
+	color: #000;
+}
+#header .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	left: 403px;
+	top: 0px;
+	z-index: 4;
+	text-align: center;
+  background: black;
+}
+#header .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+
+/*design end*/
+
+/* event go */
+
+#wrapper_event {
+  background: #000;
+}
+
+
+/* event end */
+
+#footer {
+  margin: 10px 0 0 0;
+  border-top: solid 3px black;
+}
+#footer IMG {
+  margin: 10px;
+}
+#footer .footer_firm {
+  float: right;
+	width: 605px;
+	font: 12px arial;
+	color: #181818;
+	overflow: hidden;
+}
+#footer .footer_firm .reitings {
+  float: right;
+	width: 200px;
+	text-align: right;
+	font: 10px arial;
+	color: #181818;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}
+#footer .footer_firm .reitings A {
+  color: #FD2A2A;
+}
+#footer .footer_firm .reitings IMG {
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
