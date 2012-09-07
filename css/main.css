@@ -35,7 +35,9 @@ A:hover {
 }
 
 /*web go*/
-
+#wrapper_web {
+  min-width: 1000px;
+}
 #header .logo_web {
   display: block;
 	position: absolute;
@@ -52,12 +54,12 @@ A:hover {
 }
 #inner_web .web_left {
 	text-align: center;
-	margin: 0 0 0 0;
 	overflow: hidden;
+	width: 44%;
+	margin: 0 auto;
 }
 #inner_web .web_left .block_items {
   overflow: hidden;
-  margin: 0 100px 0 250px;
 }
 #inner_web .web_left .item {
   width: 130px;
@@ -262,7 +264,7 @@ A:hover {
 }
 #footer .footer_firm {
   float: right;
-	width: 605px;
+	width: 48%;
 	font: 12px arial;
 	color: #181818;
 	overflow: hidden;
