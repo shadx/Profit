@@ -424,7 +424,7 @@ BODY.event_black_bg {
 #footer_event .event_firm {
 	width: 200px;
 	margin: 0 auto;
-	font: 10px/10px arial;
+	font: 10px/12px arial;
 	color: #EBEBEB;
 	overflow: hidden;
 	text-align: center;
@@ -576,8 +576,9 @@ BODY.event_black_bg {
 	overflow: hidden;
 }
 #footer_portfolio .portfolio_reitings {
+	display: block;
 	width: 190px;
-	font: 10px/10px arial;
+	font: 10px/12px arial;
 	color: #181818;
 	overflow: hidden;
 	text-align: center;
