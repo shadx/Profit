@@ -293,3 +293,953 @@ A:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* suvenirka */
+
+.suvenirka_body {
+  background: url(../images/bg_no-men.png) no-repeat left bottom;
+  position: relative;
+}
+#wrapper_suvenirka {
+  overflow: hidden;
+  min-width: 1000px;  
+}
+
+/* --position--*/
+#wrapper_suvenirka .logo_suvenirka {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  top: 14px;
+  left: 12px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#wrapper_suvenirka .twitter {
+  display: block;
+  width: 30px;
+	height: 22px;
+	position: absolute;
+	z-index: 9999;
+  top: 108px;
+  left: 12px;
+	background: url(../images/twitter.png) no-repeat 0 0;
+}
+#wrapper_suvenirka .vk {
+  display: block;
+  width: 25px;
+	height: 26px;
+	position: absolute;
+	z-index: 999;
+  top: 142px;
+  left: 15px;
+	background: url(../images/vk.png) no-repeat 0 0;
+}
+#wrapper_suvenirka .facebook {
+  display: block;
+  width: 10px;
+	height: 20px;
+	position: absolute;
+	z-index: 999;
+  top: 180px;
+  left: 22px;
+	background: url(../images/facebook.png) no-repeat 0 0;
+}
+#wrapper_suvenirka .compania {
+  width: 10px;
+  height: 206px;
+  background: url(../images/konpania.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 9999;
+  left: 143px;
+  top: 122px;
+}  
+#wrapper_suvenirka .online {
+	width: 52px;
+	height: 48px;
+	text-align: center;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  left: 180px;
+  bottom: 95px;
+}
+#wrapper_suvenirka .online A {
+	display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#wrapper_suvenirka .contacts {
+	width: 11px;
+	height: 157px;
+  background: url(../images/contacts.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 999;
+  left: 105px;
+  bottom: 99px;
+}
+#wrapper_suvenirka .skype {
+	width: 11px;
+	height: 42px;
+  position: absolute;
+  z-index: 9999;
+  left: 105px;
+  bottom: 214px;
+}
+#wrapper_suvenirka .skype A {
+	display: block;
+}
+#wrapper_suvenirka .men_korobka {
+	width: 164px;
+	height: 262px;
+  background: url(../images/men_korobka.png) no-repeat 0 0;
+  position: absolute;
+  z-index: 999;
+  right: 45px;
+  bottom: 44px;
+}
+#wrapper_suvenirka .reitings_suvenirka {
+	width: 185px;
+	height: 30px;
+  font: 10px arial;
+  color: black;
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  bottom: 0;
+}
+#wrapper_suvenirka .reitings_suvenirka IMG {
+  margin-left: 50px;
+}
+#wrapper_suvenirka .reitings_suvenirka SPAN {
+	color: #FF4141;
+}
+
+/* --position--*/
+
+#header_suvenirka {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+#header_suvenirka .menu_suvenirka {
+	padding: 35px 0 0 0;
+  margin-left: 191px;
+  font: 12px arial;
+	color: #000;
+}
+#header_suvenirka .menu_suvenirka .act {
+  color: #FF0F0F;
+}
+#header_suvenirka .menu_suvenirka A {
+  margin-right: 40px;
+	font: 12px arial;
+	color: black;
+}
+
+
+#inner_suvenirka {
+  overflow: hidden;
+  padding-bottom: 170px;
+}
+#inner_suvenirka .right {
+  float: right;
+  width: 200px;
+}
+#inner_suvenirka .right UL {
+}
+#inner_suvenirka .right LI {
+  font: 12px/22px  arial;
+  color: black;
+}
+#inner_suvenirka .right LI A {
+  color: black;
+}
+#inner_suvenirka .left {
+  overflow: hidden;
+  margin: 0 0 0 243px;
+}
+#inner_suvenirka .left .block_foto {
+  overflow: hidden;
+}
+#inner_suvenirka .left .block_foto .item_foto {
+  float: left;
+  width: 105px;
+  height: 100px;
+  margin: 0 42px 30px 0;
+}
+#inner_suvenirka .left .more {
+}
+#inner_suvenirka .left .more A {
+  display: block;
+  width: 21px;
+  height: 30px;
+  margin: 0 auto;
+  padding-right: 42px;
+  background: url(../images/arrow_down.jpg) no-repeat 0 13px;
+  font: 11px/11px arial;
+  color: black;
+}
+#footer_suvenirka {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* suvenirka */
+
+
+
+
+
+
+
+
+
+
+
+
+/* nugnaya_reclama */
+
+
+.reklama_body {
+  background: url(../images/bg_nugnaya_reklama.png) no-repeat left bottom ;
+  position: relative;
+}
+#wrapper_reklama {
+  height: 900px;
+  min-width: 1000px;
+}
+#wrapper_reklama .logo_reklama {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  top: 14px;
+  left: 20px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#header_reclama {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+#header_reclama .menu_reclama {
+  width: 900px;
+	padding: 35px 0 0 0;
+  margin: 0 auto;
+  font: 12px arial;
+	color: #000;
+}
+#header_reclama .menu_reclama .last {
+  margin-right: 0;
+}
+#header_reclama .menu_reclama .act {
+  color: #FF0F0F;
+}
+#header_reclama .menu_reclama A {
+  margin-right: 40px;
+	font: 12px arial;
+	color: black;
+}
+#wrapper_reklama .gorod_block {
+  width: 100%;
+  height: 365px;
+  position: absolute;
+  bottom: 45px;
+  overflow: hidden;
+}
+#wrapper_reklama .gorod_block .gorod {
+  width: 706px;
+  height: 365px;
+  margin: 0 auto;
+  background: url(../images/gorod.jpg) no-repeat 0 2px;
+  overflow: hidden;
+  position: relative;
+}
+#wrapper_reklama .gorod_block .gorod .viveski {
+  width: 144px;
+  height: 48px;
+  position: absolute;
+  left: 9px;
+  top: 209px;
+}
+#wrapper_reklama .gorod_block .gorod .tvitter {
+  width: 30px;
+  height: 22px;
+  position: absolute;
+  left: 170px;
+  top: 87px;
+}
+#wrapper_reklama .gorod_block .gorod .vk {
+  width: 25px;
+  height: 26px;
+  position: absolute;
+  left: 209px;
+  top: 85px;
+}
+#wrapper_reklama .gorod_block .gorod .face {
+  width: 10px;
+  height: 19px;
+  position: absolute;
+  left: 246px;
+  top: 89px;
+}
+#wrapper_reklama .gorod_block .gorod .lite_box {
+  width: 42px;
+  height: 120px;
+  position: absolute;
+  left: 219px;
+  bottom: 4px;
+}
+#wrapper_reklama .gorod_block .gorod .bilbordi {
+  width: 147px;
+  height: 44px;
+  position: absolute;
+  left: 280px;
+  top: 42px;
+}
+#wrapper_reklama .gorod_block .gorod .fasad {
+  width: 67px;
+  height: 34px;
+  position: absolute;
+  left: 320px;
+  top: 222px;
+}
+#wrapper_reklama .gorod_block .gorod .bukvi {
+  width: 125px;
+  height: 51px;
+  position: absolute;
+  left: 385px;
+  top: 86px;
+}
+#wrapper_reklama .gorod_block .gorod .neon {
+  width: 182px;
+  height: 59px;
+  position: absolute;
+  right: 86px;
+  top: 168px;
+}
+#wrapper_reklama .gorod_block .gorod .flagi {
+  width: 79px;
+  height: 58px;
+  position: absolute;
+  right: 97px;
+  top: 70px;
+}
+#wrapper_reklama .gorod_block .gorod .samokleiki {
+  width: 45px;
+  height: 107px;
+  position: absolute;
+  right: 87px;
+  bottom: 12px;
+}
+#wrapper_reklama .gorod_block .gorod .shtenderi {
+  width: 70px;
+  height: 91px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#wrapper_reklama .gorod_block .gorod .skype2 {
+  width: 41px;
+  height: 12px;
+  position: absolute;
+  right: 170px;
+  top: 43px;
+}
+
+
+
+
+#wrapper_reklama .obratis {
+  margin: 5px 0 0 183px;
+  width: 310px;
+  font: 18px arial;
+  color: black;
+}
+#wrapper_reklama .obratis A {
+  color: #FF2121;
+}
+#wrapper_reklama .obratis SPAN {
+  color: #FF2121;
+}
+#wrapper_reklama .footer_reklama {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  bottom: -22px;  
+}
+#wrapper_reklama .reitings_reklama {
+	width: 185px;
+	height: 30px;
+  font: 10px arial;
+  color: black;
+  position: absolute;
+  z-index: 999;
+  right: 14px;
+  bottom: 10px;  
+}
+#wrapper_reklama .reitings_reklama IMG {
+  margin-left: 50px;
+}
+#wrapper_reklama .reitings_reklama SPAN {
+	color: #FF4141;
+}
+
+/* nugnaya_reclama */
+
+
+/* text */
+
+
+.text_body {    
+  height: 766px;
+  background: url(../images/bg_text.png) no-repeat 0 0 white;
+  position: relative;
+}
+#wrapper_text {
+  height: 766px;
+  min-width: 1000px;
+}
+#wrapper_text .logo_text {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  top: 14px;
+  left: 12px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#wrapper_text .contacts2 {
+  width: 264px;
+	height: 12px;
+	position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 9px;
+	background: url(../images/contacts2.jpg) no-repeat 0 0;
+}
+#wrapper_text .skype {
+  width: 41px;
+	height: 12px;
+	position: absolute;
+  z-index: 9999;
+  top: 8px;
+  right: 9px;
+}
+#wrapper_text .skype A {
+  display: block;
+}
+#wrapper_text .content_text {
+  width: 100%;
+  height: 396px;
+  overflow: hidden;
+  position: relative; 
+}
+#wrapper_text .cont_text {
+  float: right;
+  min-width: 450px;
+  width: 445px;
+  height: 328px;
+  padding-top: 70px;
+}
+#wrapper_text .cont_text P {
+  margin: 0;
+  padding: 0 0 70px 0;
+}
+#wrapper_text .cont_text .last {
+  padding-bottom: 0;
+}
+#wrapper_text .cont_text .aforizm1 {
+  padding-left: 80px;
+  font: 11px/13px arial;
+  color: #1D1D1D;
+}
+#wrapper_text .cont_text .aforizm2 {
+  padding-left: 177px;
+  font: 12px/13px arial;
+  color: #1D1D1D;
+}
+#wrapper_text .cont_text .aforizm3 {
+  font: 12px/13px arial;
+  color: #1D1D1D;
+}
+#wrapper_text .cont_text .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	right: 91px;
+	top: 346px;
+	text-alig  n: center;
+  background: black;
+}
+#wrapper_text .cont_text .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#wrapper_text .cont2_text {
+}
+#wrapper_text .cont2_text .menu_text {
+  width: 1030px;
+	padding: 35px 0 0 0;
+  margin: 0 auto;
+  font: 12px arial;
+	color: #000;
+}
+#wrapper_text .cont2_text .menu_text .act {
+  color: #FF0F0F;
+}
+#wrapper_text .cont2_text .menu_text A {
+  margin-right: 54px;
+	font: 12px arial;
+	color: black;
+}
+#wrapper_text .cont2_text .menu_text .last {
+  margin-right: 0;
+}
+
+
+#wrapper_text .cont2_text .menu2_text {
+  width: 860px;
+	padding: 35px 0 0 0;
+  margin: 0 auto;
+  font: 12px arial;
+	color: #000;
+}
+#wrapper_text .cont2_text .menu2_text .act {
+  color: #FF0F0F;
+}
+#wrapper_text .cont2_text .menu2_text A {
+  margin-right: 58px;
+	font: 12px arial;
+	color: black;
+}
+#wrapper_text .cont2_text .menu2_text .last {
+  margin-right: 0;
+}
+#wrapper_text .cont2_text .oblast_texta {
+  height: 30px;
+  padding-left: 23px;
+  margin: 30px 177px 0 177px;
+  background: #E6E6E6;
+  font: bold 14px/30px arial;
+  color: black;
+}
+#wrapper_text .foot_text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+}
+#wrapper_text .reitings_text {
+	width: 185px;
+	height: 30px;
+  font: 10px arial;
+  color: black;
+  margin: 0 auto;
+}
+#wrapper_text .reitings_text IMG {
+  margin-left: 45px;
+}
+#wrapper_text .reitings_text SPAN {
+	color: #FF4141;
+}
+
+/* text */
+
+
+
+/* foto */
+
+.foto_body {
+  background: url(../images/bg_foto.png) no-repeat 0 0;
+  position: relative;
+}
+#wrapper_foto {
+  min-width: 1000px;
+}
+#wrapper_foto .logo_foto {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  top: 19px;
+  left: 12px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#header_foto {
+  overflow: hidden;
+  padding-left: 330px;
+  margin-bottom: 25px;
+}
+#header_foto .menu_foto {
+  float: right;
+	padding: 28px 0 0 0;
+  font: 12px arial;
+	color: #000;
+}
+#header_foto .menu_foto .act {
+  color: #FF0F0F;
+}
+#header_foto .menu_foto A {
+  margin-right: 40px;
+	font: 12px arial;
+	color: black;
+}
+#contenet_foto {
+  overflow: hidden;
+}
+#contenet_foto . {
+  overflow: hidden;
+}
+
+
+#contenet_foto .right {
+  float: right;
+  width: 441px;
+}
+#contenet_foto .right .block_foto {
+  overflow: hidden;
+}
+#contenet_foto .right .block_foto .item_foto {
+  float: left;
+  width: 105px;
+  height: 100px;
+  margin: 0 42px 30px 0;
+}
+#contenet_foto .right .more {
+}
+#contenet_foto .right .more A {
+  display: block;
+  width: 21px;
+  height: 30px;
+  margin: 0 auto;
+  padding-right: 42px;
+  background: url(../images/arrow_down.jpg) no-repeat 0 13px;
+  font: 11px/11px arial;
+  color: black;
+}
+#contenet_foto .left UL {
+  width: 170px;
+  margin: 272px 0 0 380px;
+  text-align: right;
+}
+#contenet_foto .left LI {
+  font: 12px/22px  arial;
+  color: black;
+}
+#contenet_foto .left LI A {
+  color: black;
+}
+
+
+
+
+
+
+#contenet_foto .right .compania {
+  width: 206px;
+  height: 10px;
+  background: url(../images/konpania2.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 9999;
+  left: 212px;
+  top: 467px;
+} 
+#contenet_foto .right .skype {
+  width: 264px;
+	height: 12px;
+  background: url(../images/contacts2.jpg) no-repeat 0 0;
+	position: absolute;
+  z-index: 1;
+  top: 565px;
+  left: 146px;
+}
+#contenet_foto .right .skype A {
+  display: block;
+  margin-left: 218px;
+  background: green;
+}
+#contenet_foto .right .skype A IMG {
+  float: left;
+}
+#contenet_foto .right .online {
+	width: 50px;
+	height: 50px;
+  position: absolute;
+	left: 167px;
+	top: 8px;
+}
+#contenet_foto .right .online A {
+  color: white;
+}
+#contenet_foto .right .reiting {
+  width: 80px;
+  height: 15px;
+  position: absolute;
+  top: 210px;
+  left: 44px;
+}
+
+
+/* foto */
+
+
+
+/* bez_imeni */
+
+.noname_body {
+  background: url(../images/bg_no-neme.jpg) no-repeat 0 0;
+  position: relative;
+}
+#wrapper_noname .logo_noname {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  top: 15px;
+  left: 41px;
+	background: url(../images/logo.png) no-repeat 0 0;
+}
+#wrapper_noname .reitings_noname {
+  width: 80px;
+  height: 15px;
+  position: absolute;
+  top: 31px;
+  left: 203px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wrapper_noname .twitter {
+  display: block;
+  width: 30px;
+	height: 22px;
+	position: absolute;
+	z-index: 9999;
+  top: 52px;
+  left: 200px;
+	background: url(../images/twitter.png) no-repeat 0 0;
+}
+#wrapper_noname .vk {
+  display: block;
+  width: 25px;
+	height: 26px;
+	position: absolute;
+	z-index: 999;
+  top: 50px;
+  left: 235px;
+	background: url(../images/vk.png) no-repeat 0 0;
+}
+#wrapper_noname .facebook {
+  display: block;
+  width: 10px;
+	height: 20px;
+	position: absolute;
+	z-index: 999;
+  top: 52px;
+  left: 270px;
+	background: url(../images/facebook.png) no-repeat 0 0;
+}
+#wrapper_noname .compania {
+  width: 10px;
+  height: 206px;
+  background: url(../images/konpania.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+}  
+#wrapper_noname .online {
+	width: 52px;
+	height: 48px;
+	text-align: center;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 470px;
+}
+#wrapper_noname .online A {
+	display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#wrapper_noname .contacts {
+	width: 11px;
+	height: 264px;
+  background: url(../images/contacts.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 1;
+  left: 298px;
+  top: 256px;
+}
+#wrapper_noname .skype {
+	width: 11px;
+	height: 42px;
+  background: url(../images/skype.jpg) no-repeat 0 0;
+  position: absolute;
+  z-index: 9999;
+  left: 298px;
+  top: 255px;
+}
+#wrapper_noname .skype A {
+	display: block;
+}
+#wrapper_noname .ssilka1 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 145px;
+  left: 129px;
+}
+#wrapper_noname .ssilka2 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top:  204px;
+  left: 203px;
+}
+#wrapper_noname .ssilka3 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 215px;
+  left: 38px;
+}
+#wrapper_noname .ssilka4 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 234px;
+  left: 140px;
+}
+#wrapper_noname .ssilka5 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 277px;
+  left: 168px;
+}
+#wrapper_noname .ssilka6 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 312px;
+  left: 55px;
+}
+#wrapper_noname .ssilka7 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 327px;
+  left: 231px;
+}
+#wrapper_noname .ssilka8 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 342px;
+  left: 121px;
+}
+#wrapper_noname .ssilka9 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 385px;
+  left: 32px;
+}
+#wrapper_noname .ssilka10 {
+	display: block;
+  font: 12px arial;
+  color: #393939;
+  position: absolute;
+  top: 422px;
+  left: 163px;
+}
+#wrapper_noname .aforizm_glavnaya {
+	width: 338px;
+  font: 14px arial;
+  color: #393939;
+  text-align: center;
+  position: absolute;
+  top: 470px;
+  left: 584px;
+}
+
+#wrapper_noname  .razrabotka {
+  font: 10px arial;
+  color: #393939;
+  position: absolute;
+  top: 546px;
+  left: 70px;
+}
+#wrapper_noname  .razrabotka SPAN {
+  color: #FF2424;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bez_imeni */
+
+
+
