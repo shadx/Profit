@@ -1,5 +1,5 @@
-BODY {
-
+HTML, BODY {
+  height: 100%;
 }
 
 .png {
@@ -840,6 +840,7 @@ BODY.event_black_bg {
 /* suvenirka */
 
 .suvenirka_body {
+  height: 99%;
   background: url(../images/bg_no-men.png) no-repeat left bottom;
   position: relative;
 }
@@ -958,9 +959,7 @@ BODY.event_black_bg {
 #wrapper_suvenirka .reitings_suvenirka A {
 	color: #FF4141;
 }
-
 /* --position--*/
-
 #header_suvenirka {
   overflow: hidden;
   margin-bottom: 60px;
@@ -979,8 +978,6 @@ BODY.event_black_bg {
 	font: 12px arial;
 	color: black;
 }
-
-
 #inner_suvenirka {
   overflow: hidden;
   padding-bottom: 170px;
@@ -1035,24 +1032,15 @@ BODY.event_black_bg {
 
 
 
-
-
-
-
-
-
-
-
-
 /* nugnaya_reclama */
 
 
 .reklama_body {
-  background: url(../images/bg_nugnaya_reklama.png) no-repeat left bottom ;
+  height: 97%;
+  background: url(../images/bg_reclama.jpg) no-repeat 0 98%;
   position: relative;
 }
 #wrapper_reklama {
-  height: 900px;
   min-width: 1000px;
 }
 #wrapper_reklama .logo_reklama {
@@ -1091,7 +1079,7 @@ BODY.event_black_bg {
   width: 100%;
   height: 365px;
   position: absolute;
-  bottom: 45px;
+  bottom: 48px;
   overflow: hidden;
 }
 #wrapper_reklama .gorod_block .gorod {
@@ -1240,7 +1228,7 @@ BODY.event_black_bg {
 
 
 .text_body {    
-  height: 766px;
+  height: 100%;
   background: url(../images/bg_text.png) no-repeat 0 0 white;
   position: relative;
 }
@@ -1398,6 +1386,7 @@ BODY.event_black_bg {
 /* foto */
 
 .foto_body {
+  height: 100%;
   background: url(../images/bg_foto.jpg) no-repeat 0 0;
   position: relative;
 }
@@ -1588,6 +1577,7 @@ BODY.event_black_bg {
 /* noname */
 
 .noname_body {
+  height: 100%;
   background: url(../images/bg_no-neme.jpg) no-repeat 0 0;
   position: relative;
 }
