@@ -58,7 +58,7 @@ A:hover {
 #inner_web .web_left {
 	text-align: center;
 	overflow: hidden;
-	width: 44%;
+	width: 46%;
 	margin: 0 auto;
 }
 #inner_web .web_left .block_items {
@@ -94,32 +94,10 @@ A:hover {
   font: 12px arial;
 	color: #000;
 }
-#inner_web .web_men {
-  position: absolute;
-	width: 343px;
-	height: 322px;
-	right: 0;
-	top: 253px;
-  background: url(../images/men.png) no-repeat 0 0;
-}
-#inner_web .online {
-  position: absolute;
-	width: 52px;
-	height: 48px;
-	left: 600px;
-	top: 520px;
-	text-align: center;
-  background: black;
-}
-#inner_web .online A {
-  display: block;
-	font: 12px/16px arial;
-	color: #fff;
-}
 #inner_web .tel {
   font: 12px arial;
 	color: #FF0F0F;
-	margin: 100px 0 0 320px;
+	margin: 10px 20px 0 19%;
 }
 #inner_web .tel A {
   font: 12px arial;
@@ -128,6 +106,29 @@ A:hover {
 #inner_web .tel SPAN {
   font: 12px arial;
 	color: #000;
+}
+
+#footer .online {
+  position: absolute;
+	width: 52px;
+	height: 48px;
+	left: 47.5%;
+	bottom: 50px;
+	text-align: center;
+  background: black;
+}
+#footer .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+#footer .web_men {
+  position: absolute;
+	width: 343px;
+	height: 322px;
+	right: 0;
+	bottom: 48px;
+  background: url(../images/men.png) no-repeat 0 0;
 }
 
 /*web end*/
@@ -175,7 +176,7 @@ A:hover {
 	background: url(../images/t_vk_f_2.png) no-repeat 0 0;
 }
 #inner_design {
-	padding: 271px 0 0 0;
+	padding: 181px 0 0 0;
 }
 #inner_design .design_left {
 	width: 30%;
@@ -183,19 +184,21 @@ A:hover {
 	text-align: right;
 }
 #inner_design .design_left A {
-  font: 12px arial;
+  font: 12px/24px arial;
 	color: #000;
 	clear: both;
 }
 #inner_design .design_right {
-  margin: 0 300px 0 31%;
+  margin: 0 0 0 31%;
+	width: 600px;
 	overflow: hidden;
 	position: absolute;
 	top: 120px;
 	text-align: center;
 }
 #inner_design .design_right .block_items {
-  overflow: hidden;
+  margin: 0 0 0 20px;
+	overflow: hidden;
 }
 #inner_design .design_right .block_items .item {
   float: left;
@@ -257,9 +260,10 @@ A:hover {
 
 
 BODY.event_black_bg {
-  background: url(../images/main_black_bg.jpg) no-repeat right bottom black;
+  background: black;
 }
 #event_line {
+ overflow: hidden;
   background: url(../images/event_line.png) repeat-y 17px 0;
 }
 
@@ -267,6 +271,7 @@ BODY.event_black_bg {
   min-width: 1000px;
 	position: relative;
 	overflow: hidden;
+	 background: url(../images/main_black_bg.jpg) no-repeat right bottom black;
 }
 #wrapper_event .event_men {
   position: absolute;
@@ -399,7 +404,7 @@ BODY.event_black_bg {
 
 #footer_event {
   width: 100%;
-	height: 60px;
+	height: 150px;
 	margin: 0 auto;
 	background:;
 }
@@ -415,7 +420,7 @@ BODY.event_black_bg {
   color: #FD2A2A;
 }
 #footer_event .event_firm IMG {
-  margin: 0 0 -10px 0;
+  margin: 100px 0 -10px 0;
 }
 
 /* event end */
@@ -477,16 +482,16 @@ BODY.event_black_bg {
 	margin: 0 0 0 50px;
 	background: url(../images/inner_portfolio.png) no-repeat 0 0;
 }
-#inner_portfolio .web_left {
+#inner_portfolio .portfolio_right {
 	text-align: center;
 	overflow: hidden;
-	width: 44%;
-	margin: 0 auto;
+	width: 35%;
+	margin: 0 0 20px 0;
 }
-#inner_portfolio .web_left .block_items {
+#inner_portfolio .portfolio_right .block_items {
   overflow: hidden;
 }
-#inner_portfolio .web_left .item {
+#inner_portfolio .portfolio_right .item {
   width: 130px;
 	height: 125px;
 	float: left;
@@ -494,17 +499,17 @@ BODY.event_black_bg {
 	overflow: hidden;
 	margin: 5px;
 }
-#inner_portfolio .web_left .item IMG {
+#inner_portfolio .portfolio_right .item IMG {
 	text-align: center;
 }
-#inner_portfolio .web_left .yet {
+#inner_portfolio .portfolio_right .yet {
   font: 12px/50px arial;
 	color: #000;
 	margin: 0;
 	padding: 0 0 15px 0;
 	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
 }
-#inner_portfolio .web_left .yet:hover {
+#inner_portfolio .portfolio_right .yet:hover {
   text-decoration: none;
 }
 #inner_portfolio .portfolio_left {
@@ -644,18 +649,47 @@ BODY.event_black_bg {
 }
 
 #right_polygraphy {
-	width: 920px;
+	width: 73%;
+	margin: 0 0 0 0;
+	float: right;
 	overflow: hidden;
-	position: relative;
+}
+#right_polygraphy .polygraphy_left {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	width: 46%;
+}
+#right_polygraphy .polygraphy_left .block_items {
+  overflow: hidden;
+}
+#right_polygraphy .polygraphy_left .item {
+  width: 130px;
+	height: 125px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	margin: 5px;
+}
+#right_polygraphy .polygraphy_left .item IMG {
+	text-align: center;
+}
+#right_polygraphy .polygraphy_left .yet {
+  font: 12px/50px arial;
+	color: #000;
+	margin: 0;
+	padding: 0 0 15px 0;
+	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+}
+#right_polygraphy .polygraphy_left .yet:hover {
+  text-decoration: none;
 }
 #right_polygraphy .polygraphy_right {
   float: right;
 	width: 300px;
-	margin: 0 0 0 60%;
-	height: 200px;
+	height: 400px;
 	overflow: hidden;
-	position: absolute;
-	bottom: 0;
+	position: relative;
 }
 #right_polygraphy .polygraphy_right .portfolio_reitings {
 	width: 190px;
@@ -708,17 +742,17 @@ BODY.event_black_bg {
 	height: 26px;
   background: url(../images/face_white.png) no-repeat 50% 50%;
 }
-#right_polygraphy .web_left {
+#right_polygraphy .polygraphy_left {
 	text-align: center;
 	float: left;
 	overflow: hidden;
 	width: 46%;
 	margin: 0 0 0 20px;
 }
-#right_polygraphy .web_left .block_items {
+#right_polygraphy .polygraphy_left .block_items {
   overflow: hidden;
 }
-#right_polygraphy .web_left .item {
+#right_polygraphy .polygraphy_left .item {
   width: 130px;
 	height: 125px;
 	float: left;
@@ -726,32 +760,33 @@ BODY.event_black_bg {
 	overflow: hidden;
 	margin: 5px;
 }
-#right_polygraphy .web_left .item IMG {
+#right_polygraphy .polygraphy_left .item IMG {
 	text-align: center;
 }
-#right_polygraphy .web_left .yet {
-  font: 12px/50px arial;
+#right_polygraphy .polygraphy_left .yet {
+  display: block;
+	font: 12px arial;
 	color: #000;
 	margin: 0;
 	padding: 0 0 15px 0;
-	background: url(../images/arrow_down.jpg) no-repeat 0 100%;
+	background: url(../images/arrow_down.jpg) no-repeat 50% 100%;
 }
-#right_polygraphy .web_left .yet:hover {
+#right_polygraphy .polygraphy_left .yet:hover {
   text-decoration: none;
 }
 
 /* polygraphy end */
 
 #footer {
-  margin: 10px 0 0 0;
+  margin: 0px 0 0 0;
   border-top: solid 3px black;
 }
 #footer IMG {
-  margin: 10px;
+  margin: 22px;
 }
 #footer .footer_firm {
   float: right;
-	width: 48%;
+	width: 47%;
 	font: 12px arial;
 	color: #181818;
 	overflow: hidden;
