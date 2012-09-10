@@ -924,7 +924,7 @@ BODY.event_black_bg {
   position: absolute;
   z-index: 999;
   left: 180px;
-  bottom: 86px;
+  bottom: 95px;
 }
 #wrapper_suvenirka .online A {
 	display: block;
@@ -1057,15 +1057,6 @@ BODY.event_black_bg {
   background: url(../images/bg_reclama.jpg) no-repeat 0 98%;
   position: relative;
 }
-.reklama_body .man_reclama {
-  width: 248px;
-  height: 287px;
-  background: url(../images/man_reclama.png) no-repeat 0 0;
-  position: absolute;
-  z-index: 999;
-  left: 0;
-  bottom: 2px;
-}
 #wrapper_reklama {
   min-width: 1000px;
 }
@@ -1085,7 +1076,7 @@ BODY.event_black_bg {
 }
 #header_reclama .menu_reclama {
   width: 900px;
-	padding: 35px 0 0 150px;
+	padding: 35px 0 0 0;
   margin: 0 auto;
   font: 12px arial;
 	color: #000;
@@ -1779,6 +1770,16 @@ BODY.event_black_bg {
   top: 422px;
   left: 163px;
 }
+#wrapper_noname .aforizm_glavnaya {
+	width: 338px;
+  font: 14px arial;
+  color: #393939;
+  text-align: center;
+  position: absolute;
+  top: 470px;
+  left: 584px;
+}
+
 #wrapper_noname  .razrabotka {
   font: 10px arial;
   color: #393939;
@@ -1786,28 +1787,9 @@ BODY.event_black_bg {
   top: 546px;
   left: 70px;
 }
-#wrapper_noname  .razrabotka A {
+#wrapper_noname  .razrabotka A{
   color: #FF2424;
-}
-#wrapper_noname .right_noname {
-  padding-top: 228px;
-  margin-left: 312px;
-}
-#wrapper_noname .right_noname .man_noname {
-  width: 398px;
-  height: 239px;
-  margin: 0 auto;
-  background: url(../images/bg_right-no-neme.jpg) no-repeat 0 0;
-}
-#wrapper_noname .aforizm_glavnaya {
-	width: 338px;
-  font: 14px/20px arial;
-  color: #393939;
-  margin: 0 auto;
-  text-align: center;
 } 
-
-/* noname */
 
 
 
