@@ -1641,6 +1641,7 @@ BODY.event_black_bg {
 }
 #wrapper_text .cont_text .aforizm3 {
   font: 12px/13px arial;
+	margin: -20px;
   color: #1D1D1D;
 }
 #wrapper_text .cont_text .online {
