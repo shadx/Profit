@@ -1948,15 +1948,159 @@ BODY.event_black_bg {
 /* kontact go */
 
 .kontact_bg {
+  min-width: 1000px;
+  min-height: 712px;
   position: relative;
   overflow: hidden;
-  height: 75%;
-  background: url(../images/kontact_bg.png) no-repeat 60% 125%;
+  height: 100%;
 }
-#wrapper {
+#wrapper_kontact {
   min-width: 1000px;
+  height: 100%;
+  background: url(../images/kontact_window_bg.png) repeat-y 50% 0;
 }
-#wrapper .kontact_cup {
+
+#wrapper_kontact .window_top {
+  position: relative;
+  width: 498px;
+  height: 220px;
+  margin: 0 auto;
+  background: url(../images/kontact_window_top.png) no-repeat 0 0 white;
+}
+#wrapper_kontact .window_top .online {
+  position: absolute;
+	width: 51px;
+	height: 48px;
+	left: 1px;
+	top: 0px;
+	z-index: 4;
+	text-align: center;
+  background: black;
+}
+#wrapper_kontact .window_top .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+
+
+#wrapper_kontact .window_top .tel {
+  position: absolute;
+  left: -99px;
+  top: 5px;
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#wrapper_kontact .window_top .tel A {
+  font: 12px arial;
+	color: #FF0F0F;
+}
+#wrapper_kontact .window_top .tel SPAN {
+  font: 12px arial;
+	color: #000;
+  text-shadow: none;
+}
+#wrapper_kontact .window_top .soc_seti {
+  position: absolute;
+	width: 50px;
+	top: 60px;
+	left: 10px;
+}
+#wrapper_kontact .window_top .soc_seti .twitt {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/twitt_black.png) no-repeat 50% 50%;
+}
+#wrapper_kontact .window_top .soc_seti .vk {
+  display: block;
+	margin: 10px 0 10px 0;
+  width: 30px;
+	height: 26px;
+  background: url(../images/vk_black.png) no-repeat 50% 50%;
+}
+#wrapper_kontact .window_top .soc_seti .face {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/face_black.png) no-repeat 50% 50%;
+}
+#wrapper_kontact .window_top .proezd {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  width: 210px;
+  height: 145px;
+  background: url(../images/kontact_proezd.png) no-repeat 0 0; 
+}
+#wrapper_kontact .window_top .proezd .txt {
+  top: 90px;
+  left: 80px;
+  text-align: right;
+  font: 10px arial;
+}
+#wrapper_kontact .window_top .proezd .arrows {
+  left: 80px;
+  bottom: 40px;
+  background-position: 0 -101px;
+}
+#wrapper_kontact .logo {
+  position: absolute;
+  width: 22%;
+  top: 19px;
+  left: 12px;
+  height: 170px;
+}
+#wrapper_kontact .logo .txt {
+  right: 0;
+  bottom: 0;
+}
+#wrapper_kontact .logo .arrows {
+  right: 120px;
+  bottom: 50px;
+  background-position: 0 -34px;
+}
+#wrapper_kontact .logo .logo_kontact {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+  background: url(../images/logo.png) no-repeat 0 0;
+}
+#wrapper_kontact .txt {
+  font: 14px arial;
+  color: #060606;
+  text-align: center;
+  text-shadow: 1px 0px #9B9B9B;
+  position: absolute;
+}
+#wrapper_kontact  SPAN {
+  color: #FF0C0C;
+  text-shadow: -1px 0px #FF9C9C;
+}
+#wrapper_kontact .arrows {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background: url(../images/kontact_arrows.png) no-repeat 0 0;
+}
+#wrapper_kontact .window_top .kontact_train .txt {
+  top: 50px;
+  right: 0px;
+  font: 10px arial;
+  word-spacing: -2px;
+}
+#wrapper_kontact .window_top .kontact_train .txt SPAN {
+  font: 12px arial;
+}
+#wrapper_kontact .window_top .kontact_train .arrows {
+  top: 50px;
+  right: -30px;
+  background-position: 0 -68px;
+}
+
+#wrapper_kontact .kontact_cup {
   position: absolute;
   width: 155px;
   height: 133px;
@@ -1965,7 +2109,7 @@ BODY.event_black_bg {
   bottom: 3%;
   background: url(../images/kontact_cup.png) no-repeat 0 0;
 }
-#wrapper .kontact_chair {
+#wrapper_kontact .kontact_chair {
   position: absolute;
   width: 345px;
   height: 235px;
@@ -1974,157 +2118,173 @@ BODY.event_black_bg {
   bottom: 7%;
   background: url(../images/kontact_chair.png) no-repeat 0 0;
 }
-#wrapper .kontact_olga {
+#wrapper_kontact .kontact_olga {
   position: absolute;
   width: 235px;
   height: 251px;
   z-index: 4;
   left: 23%;
-  bottom: 21%;
+  bottom: 27%;
   background: url(../images/kontact_olga.png) no-repeat 0 0;
 }
-#wrapper .kontact_sergei {
+#wrapper_kontact .kontact_sergei {
   position: absolute;
   width: 191px;
   height: 183px;
-  left: 35%;
-  bottom: 36.8%;
+  z-index: 2;
+  left: 34%;
+  top: 17%;
   background: url(../images/kontact_sergei.png) no-repeat 0 0;
 }
-#wrapper .kontact_flower {
+#wrapper_kontact .kontact_flower {
   position: absolute;
   width: 47px;
   height: 55px;
-  left: 55%;
-  bottom: 55%;
+  z-index: 1;
+  left: 55.8%;
+  top: 100px;
   background: url(../images/kontact_flower.png) no-repeat 0 0;
 }
-#wrapper .kontact_men {
+#wrapper_kontact .kontact_men {
   position: absolute;
   width: 156px;
   height: 212px;
-  left: 59.4%;
-  bottom: 484px;
+  right: 9%;
+  top: 0;
   background: url(../images/kontact_men.png) no-repeat 0 0;
 }
-#wrapper .kontact_elena {
+#wrapper_kontact .kontact_elena {
   position: absolute;
   width: 164px;
   height: 191px;
-  right: 24.5%;
-  bottom: 33%;
+  right: 30.5%;
+  z-index: 2;
+  top: 20%;
   background: url(../images/kontact_elena.png) no-repeat 0 0;
 }
-#wrapper .kontact_evgenia {
+#wrapper_kontact .kontact_evgenia {
   position: absolute;
   width: 202px;
   height: 319px;
-  right: 15%;
-  bottom: 10%;
+  z-index: 4;
+  right: 20%;
+  bottom: 15%;
   background: url(../images/kontact_evgenia.png) no-repeat 0 0;
 }
-#wrapper .kontact_train {
+#wrapper_kontact .kontact_train {
   position: absolute;
   width: 41px;
   height: 44px;
-  left: 40.8%;
-  top: 100px;
+  left: 11%;
+  top: 90px;
   background: url(../images/kontact_train.png) no-repeat 0 0;
 }
+#wrapper_kontact .kontact_reitings {
+	width: 190px;
+	font: 10px/12px arial;
+	color: #181818;
+	overflow: hidden;
+	text-align: right;
+	position: absolute;
+	z-index: 9;
+	top: 170px;
+	left: 43.8%;
+}
+#wrapper_kontact .kontact_reitings A {
+  color: #FD2A2A;
+}
 
-#wrapper .txt {
-  font: 14px arial;
-  color: #060606;
-  text-align: center;
-  text-shadow: 1px 0px #9B9B9B;
+#wrapper_kontact .window_bot {
+  width: 100%;
+  height: 60%;
+  min-height: 500px;
   position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  background: url(../images/kontact_window_bot.png) no-repeat 50% 0 white;
 }
-#wrapper SPAN {
-  color: #FF0C0C;
-  text-shadow: -1px 0px #FF9C9C;
-}
-#wrapper .arrows {
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  background: url(../images/kontact_arrows.png) no-repeat 0 0;
-}
-#wrapper .kontact_cup .txt {
+#wrapper_kontact .window_bot .kontact_cup .txt {
   top: -70px;
 }
-#wrapper .kontact_cup .arrows {
+#wrapper_kontact .window_bot .kontact_cup .arrows {
   top: -15px;
   left: 55px;
   background-position: 0px 0px;
 }
-#wrapper .kontact_chair .txt {
+#wrapper_kontact .kontact_cup IMG {
+  position: absolute;
+  left: -37px;
+  top: 118px;
+}
+#wrapper_kontact .window_bot .kontact_chair .txt {
   top: 60px;
   left: 100px;
 }
-#wrapper .kontact_chair .arrows {
+#wrapper_kontact .window_bot .kontact_chair .arrows {
   bottom: 80px;
   right: 135px;
   background-position: 0 -17px;
 }
-#wrapper .kontact_olga .txt {
+#wrapper_kontact .window_bot .kontact_olga .txt {
   top: -30px;
   left: -150px;
 }
-#wrapper .kontact_olga .arrows {
+#wrapper_kontact .window_bot .kontact_olga .arrows {
   top: 10px;
   left: 10px;
   background-position: 0 0;
 }
-#wrapper .kontact_sergei .txt {
+#wrapper_kontact .window_bot .kontact_sergei .txt {
   top: 25px;
   right: -90px;
 }
-#wrapper .kontact_sergei .arrows {
+#wrapper_kontact .window_bot .kontact_sergei .arrows {
   top: 40px;
   right: 10px;
   background-position: 0 -68px;
 }
-#wrapper .kontact_flower .txt {
+#wrapper_kontact .window_bot .kontact_flower .txt {
   top: -60px;
   left: -10px;
 }
-#wrapper .kontact_flower .arrows {
+#wrapper_kontact .window_bot .kontact_flower .arrows {
   top: -20px;
   left: 10px;
   background-position: 0 -85px;
 }
-#wrapper .kontact_elena .txt {
+#wrapper_kontact .window_bot .kontact_elena .txt {
   top: -30px;
   left: 40px;
 }
-#wrapper .kontact_elena .arrows {
+#wrapper_kontact .window_bot .kontact_elena .arrows {
   left: 60px;
   background-position: 0 0;
 }
-#wrapper .kontact_evgenia .txt {
+#wrapper_kontact .window_bot .kontact_evgenia .txt {
   top: -40px;
   right: -20px;
 }
-#wrapper .kontact_evgenia .arrows {
+#wrapper_kontact .window_bot .kontact_evgenia .arrows {
   top: -10px;
   right: 10px;
   background-position: 0 -51px;
 }
-#wrapper .kontact_train .txt {
-  top: 50px;
-  right: 0px;
-  font: 10px arial;
-  word-spacing: -2px;
+#wrapper_kontact .window_bot .kontact_menu {
+  position: absolute;
+	z-index: 10;
+	left: 185px;
+	top: 300px;
+	width: 74%;
+  text-align: center;
 }
-#wrapper .kontact_train .txt SPAN {
-  font: 12px arial;
+#wrapper_kontact .window_bot .kontact_menu .act {
+  color: #FF0F0F;
 }
-#wrapper .kontact_train .arrows {
-  top: 50px;
-  right: -30px;
-  background-position: 0 -68px;
+#wrapper_kontact .window_bot .kontact_menu A {
+  padding: 0 30px 0 0;
+	font: 12px/50px arial;
+	color: #000;
 }
-
 
 
 /* kontact end */
