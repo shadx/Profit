@@ -2286,5 +2286,315 @@ BODY.event_black_bg {
 	color: #000;
 }
 
-
 /* kontact end */
+
+/* inner go */
+
+#wrapper_inner {
+  width: 100%;
+	min-width: 1000px;
+	height: 100%;
+	background: ;
+}
+
+#header_inner {
+  
+}
+#header_inner .logo_bg {
+  width: 219px;
+	height: 131px;
+	float: left;
+  background: url(../images/inner_logo.png) no-repeat 0 0;
+}
+#header_inner .logo_bg .inner_logo {
+  display: block;
+  width: 118px;
+	height: 80px;
+	position: absolute;
+	z-index: 999;
+	left: 45px;
+	top: 15px;
+  background: url(../images/logo.png) no-repeat 0 0;
+}
+#header_inner .top_text {
+  width: 500px;
+	height: 345px;
+	font: 10px/14px arial;
+	color: #1B1B1B;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 0 220px;
+	background: url(../images/inner_men-1.png) no-repeat 68% 100%;
+}
+#header_inner .top_text SPAN {
+  font: bold 12px/36px arial;
+}
+#inner_inner {
+  position: relative;
+  width: 70%;
+	margin: 50px auto;
+	height: ;
+	padding: 55px 0 0 0;
+	border: solid 2px black;
+  
+}
+#inner_inner .ugol {
+  width: 100.2%;
+	height: 42px;
+	position: absolute;
+	z-index: 10;
+	right: -2.3px;
+	top: -2px;
+	border-bottom: solid 2px black;
+  background: url(../images/inner_ugol.jpg) no-repeat 100.2% 0;
+}
+#inner_inner .inner_men-2 {
+  width: 266px;
+	height: 500px;
+	position: absolute;
+	left: -46px;
+	top: -167px;
+	background: url(../images/inner_men-2.png) no-repeat 0 0;
+}
+#inner_inner .inner_fly {
+  width: 132px;
+	height: 40px;
+	position: absolute;
+	left: 60%;
+	top: -10px;
+	z-index: 11;
+	background: url(../images/inner_fly.png) no-repeat 0 0;
+}
+#inner_inner .inner_antena {
+  width: 153px;
+	height: 154px;
+	position: absolute;
+	right: -60px;
+	top: -125px;
+	z-index: 11;
+	background: url(../images/inner_antena.png) no-repeat 0 0;
+}
+#inner_inner .inner_men-3 {
+  width: 131px;
+	height: 396px;
+	position: absolute;
+	right: -133px;
+	top: 37px;
+	z-index: 11;
+	background: url(../images/inner_men-3.png) no-repeat 0 0 white;
+}
+#inner_inner .inner_men-3_bot {
+  width: 162px;
+	height: 90%;
+	position: absolute;
+	right: -169px;
+	bottom: 0px;
+	z-index: 0;
+	background: url(../images/inner_men-3_bot.png) no-repeat 0 100%;
+}
+#inner_inner .inner_contacts {
+  position: absolute;
+	width: 10px;
+	height: 264px;
+	left: -15px;
+	top: 250px;
+	background: url(../images/contacts.jpg) no-repeat 0 0;
+}
+#inner_inner .inner_contacts .skype {
+  position: absolute;
+	width: 10px;
+	height: 45px;
+	left: 0;
+	top: 0;
+}
+#inner_inner .inner_contacts .skype:hover {
+  border-right: solid 1px #FF5757;
+	cursor: pointer;
+}
+#inner_inner .inner_kompania {
+  position: absolute;
+	width: 10px;
+	height: 206px;
+	left: -35px;
+	top: 340px;
+	background: url(../images/kompania.png) no-repeat 0 0;
+}
+#inner_inner .bread_crumbs {
+  width: 400px;
+	height: 45px;
+	position: absolute;
+	left: 220px;
+	top: -45px;
+	z-index: 12;
+	font: 12px arial;
+	color: #2C2C2C;
+}
+#inner_inner .bread_crumbs A {
+	font: 12px arial;
+	color: #2C2C2C;
+}
+#inner_inner .bread_crumbs SPAN {
+	font: 12px arial;
+	color: #FF2222;
+}
+
+#inner_inner .table_inner {
+  height: 100%;
+	position: relative;
+	
+}
+#inner_inner .table_inner .table {
+  width: 95%;
+	overflow: hidden;
+	margin: 0 auto;
+  border: solid 1px black;
+}
+
+#inner_inner .table_inner .table .row {
+  width: 100%;
+	font: 12px arial;
+	color: #1B1B1B;
+	border-bottom: solid 1px silver;
+	overflow: hidden;
+}
+#inner_inner .table_inner .table .row SPAN {
+	font:bold 14px arial;
+	color: #1B1B1B;
+}
+
+#inner_inner .table_inner .table .left_col {
+  float: left;
+	width: 20%;
+	margin: 5px;
+}
+#inner_inner .table_inner .table .right_col {
+  float: right;
+	margin-left: 5px;
+	width: 20%;
+}
+#inner_inner .table_inner .table .col {
+	padding: 5px;
+	border-style: solid;
+	border-color: silver;
+	border-width: 0 1px 0 1px;
+	overflow: hidden;
+}
+
+#inner_inner .table_inner .portfolio_online {
+  width: 155px;
+	margin: 15px auto;
+	margin-bottom: 35px;
+	
+}
+#inner_inner .table_inner .portfolio_online .look_portfolio {
+	float: left;
+	width: 100px;
+	height: 48px;
+	text-align: center;
+	background: #f00;
+}
+#inner_inner .table_inner .portfolio_online .look_portfolio A {
+  display: block;
+	font: 12px/24px arial;
+	color: #fff;
+}
+#inner_inner .table_inner .portfolio_online .online {
+	width: 52px;
+	height: 48px;
+	margin-left: 100px;
+	text-align: center;
+  background: black;
+}
+#inner_inner .table_inner .portfolio_online .online A {
+  display: block;
+	font: 12px/16px arial;
+	color: #fff;
+}
+
+#inner_inner .table_inner .left_bot {
+  float: left;
+	width: 200px;
+	margin: 0 0 0 10px;
+}
+#inner_inner .table_inner .left_bot .street {
+	width: 169px;
+	height: 45px;
+	padding: 12px 0 0 0;
+	font: 14px arial;
+	color: #1B1B1B;
+	text-align: center;
+  background: url(../images/inner_street.png) no-repeat 0 0;
+}
+#inner_inner .table_inner .left_bot .soc_seti {
+	width: 50px;
+	margin: 30px auto;
+}
+#inner_inner .table_inner .left_bot .soc_seti .twitt {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/twitt_black.png) no-repeat 50% 50%;
+}
+#inner_inner .table_inner .left_bot .soc_seti .vk {
+  display: block;
+	margin: 10px 0 10px 0;
+  width: 30px;
+	height: 26px;
+  background: url(../images/vk_black.png) no-repeat 50% 50%;
+}
+#inner_inner .table_inner .left_bot .soc_seti .face {
+  display: block;
+	width: 30px;
+	height: 26px;
+  background: url(../images/face_black.png) no-repeat 50% 50%;
+}
+
+#inner_inner .table_inner .right_bot {
+  float: right;
+	width: 250px;
+}
+#inner_inner .menu {
+  text-align: right;
+}
+#inner_inner .menu .act {
+  color: #FF0F0F;
+}
+#inner_inner .menu A {
+  padding: 0 35px 0 0;
+	font: 12px arial;
+	color: #000;
+}
+
+#inner_inner .table_inner .cont_bot {
+  margin: 0 250px 0 250px;
+}
+#inner_inner .table_inner .cont_bot .inner_door {
+  position: relative;
+	width: 296px;
+	height: 270px;
+	margin: 0 auto;
+	background: url(../images/inner_door.png) no-repeat 0 0;
+}
+#inner_inner .table_inner .cont_bot .inner_door .inner_reitings {
+	width: 190px;
+	margin: 0 auto;
+	padding-top: 65px;
+	font: 9px/10px arial;
+	color: #181818;
+	
+	overflow: hidden;
+	text-align: center;
+}
+#inner_inner .table_inner .cont_bot .inner_door .inner_reitings A {
+	color: #FD2A2A;
+}
+#inner_inner .table_inner .cont_bot .inner_door .inner_door-2 {
+  position: absolute;
+	left: 0px; 
+	bottom: -10px;
+	width: 296px;
+	height: 18px;
+  background: url(../images/inner_door-2.jpg) no-repeat 0 0;
+}
+
+/* inner end */
